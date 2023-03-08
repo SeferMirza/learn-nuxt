@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentRenderer :value='index' />
+    <ContentRenderer :value="index" />
     <ContentRenderer
       v-for="page in pages"
       :key="page.title"
