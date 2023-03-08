@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prebuild": "npx eslint . && cross-var node -r dotenv/config prebuild dotenv_config_path=.env.$npm_config_env",
+    "prebuild": " npx eslint . && cross-var node -r dotenv/config prebuild dotenv_config_path=.env.$npm_config_env",
     "build": "nuxt build",
     "predev": "npm run build --env=local",
     "dev": "nuxt dev",
